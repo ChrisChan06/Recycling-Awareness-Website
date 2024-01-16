@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Awareness</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js"></script>
+</head>
+
+<body onload="myFunction()">
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>Recycling Awareness</span>
+            </div>
+            <div>
+                <img src="media/logo.png" style="height:100;width:120;border-radius:50%;">
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class="head-bottom flex">
+            <h2>Welcome to Recycling Awareness!</h2>
+            <p>Recycling is the process of collecting, processing, and reusing materials to create new products. It plays a crucial role in reducing waste, conserving resources, and minimizing the environmental impact of discarded items. By recycling, we contribute to a cleaner planet and sustainable living.</p>
+            <p>Our mission is to educate and inspire individuals to embrace recycling practices for a greener future. Through this website, we aim to provide accessible and informative content that empowers users to make environmentally conscious choices. By fostering awareness and understanding, we hope to create a community dedicated to sustainable living.</p>
+            <span> Enjoy Learning!!</span>
+            <button type="button" class="head-btn"><a href="#services" style="text-decoration: none; color:white;">GET STARTED</a></button>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Side Navbar -->
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="navbar">
+            <li><a href="#header">home</a></li>
+            <li><a href="#materials">materials</a></li>
+            <li><a href="#disposal">waste disposal tips</a></li>
+            <li><a href="#recycle">why recycle?</a></li>
+            <li><a href="contact_us.html">contact us</a></li>
+        </ul>
+        <button class="btn log-in"><a href="login.html" style="text-decoration: none; color:white;">log in</a></button>
+    </div>
+    <!-- End of Side Navbar -->
+
+    <div id="modal"></div>
+
+    <!-- Body -->
+    <section class="services sec-width" id="materials">
+        <div class="title">
+            <h3>Materials and Recycling</h3>
+        </div>
+        <p>Materials commonly recycled include paper, plastic, glass, and metal. Recycling these items reduces the strain on natural resources, lessens pollution, and conserves energy compared to producing new materials from scratch.</p>
+        <div class="services-container">
+            <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fas fa-file-alt"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Paper</h2>
+                        <ul>
+                            <li>Gather newspapers, magazines, cardboard, and other paper products.</li>
+                            <li>Remove any contaminants like plastic or metal attachments.</li>
+                            <li>Shred paper, mix with water to create a pulp, and clean to remove inks and impurities.</li>
+                            <li>Press and dry the cleaned pulp to create new paper products.</li>
+                        </ul>
+                        <p><strong>Tips</strong>: Ensure paper is dry and free from grease. Avoid recycling heavily soiled or contaminated paper.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fas fa-wine-bottle"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Plastic</h2>
+                        <ul>
+                            <li>Check the plastic item for its recycling code (usually a number inside the recycling symbol).</li>
+                            <li>Separate plastics by their recycling codes.</li>
+                            <li>Rinse the plastic items to remove any residue.</li>
+                            <li>Take plastics to a recycling facility or place them in your recycling bin if your local program accepts them.</li>
+                        </ul>
+                        <p><strong>Tips</strong>: Focus on recycling plastics with higher recycling codes (e.g., #1 PETE and #2 HDPE) as they are more widely accepted.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fas fa-glass-whiskey"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Glass</h2>
+                        <ul>
+                            <li>Separate glass items by color: clear, green, and brown.</li>
+                            <li>Rinse glass containers to remove any food or liquid residue.</li>
+                            <li>Take glass bottles and jars to designated glass recycling bins or centers.</li>
+                            <li>Glass is transported to recycling facilities where it is crushed, melted, and molded into new glass products.</li>
+                        </ul>
+                        <p><strong>Tips</strong>: Avoid mixing different colored glasses during recycling. Discard non-recyclable glass items separately.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fas fa-cogs"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Metal</h2>
+                        <ul>
+                            <li>Sort metal items into categories: aluminum, steel, and tin.</li>
+                            <li>Rinse metal containers to remove any remaining contents.</li>
+                            <li>Crush metal cans to save space during transportation.</li>
+                            <li>Take metals to recycling plants where they undergo processes like melting and purification before being transformed into new metal products.</li>
+                        </ul>
+                        <p><strong>Tips</strong>: Separate aluminum cans from steel or tin cans. Check with your local recycling program for specific guidelines.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+        </div>
+        <strong>
+            <p>These step-by-step guides provide a general overview of how to recycle paper, plastic, glass, and metal. Always be mindful of your local recycling guidelines, as they may have specific requirements or variations. Proper recycling practices contribute to the reduction of waste and promote a more sustainable and environmentally friendly lifestyle.</p>
+        </strong>
+    </section>
+
+    <!-- Waste Disposal Tips -->
+    <div class="book" id="disposal">
+        <div class="title">
+            <h3>Waste Disposal Tips</h3>
+        </div>
+        <section>
+            <h3>Proper Sorting</h3>
+            <p>Sorting waste correctly is vital for maximizing recycling efficiency. By separating materials at the source, individuals can ensure that recyclables reach the appropriate facilities, preventing contamination and promoting effective recycling.</p>
+            <h3>Reducing Contamination</h3>
+            <p>Minimizing contamination in recyclables is crucial. Our tips focus on educating users about the types of materials that can and cannot be recycled together, helping them play an active role in maintaining the quality of recycled materials.</p>
+        </section>
+    </div>
+
+    <section class="customers" id="recycle">
+        <div class="sec-width">
+            <div class="title">
+                <h3>Why recycle?</h3>
+            </div>
+            <div class="customers-container">
+                 <div class = "customer">
+                        <h3>Environmental Impact</h3>
+                        <p>Recycling positively affects the environment by reducing the amount of waste sent to landfills, conserving valuable resources like trees and minerals, and lowering greenhouse gas emissions associated with manufacturing. Embracing recycling is a simple yet impactful way for individuals to contribute to the health of our planet.</p>
+                        <img src = "media/es.jpg" alt = "environmental impact image">
+                    </div>
+                   
+                    <div class = "customer">
+                        <h3>Economic Benefits</h3>
+                        <p>Recycling contributes to economic sustainability by creating employment opportunities within the recycling industry. Additionally, it helps save energy during the production of new goods, as recycled materials often require less energy than raw materials. This economic cycle benefits both the environment and local economies.</p>
+                        <img src = "media/eb.jpg" alt = "economic benefits image">
+                    </div>
+                    
+                    <div class = "customer">
+                        <h3>Conservation of Resources</h3>
+                        <p>Recycling helps conserve valuable natural resources by reducing the need for raw materials. By reusing materials like paper, glass, and metal, we can extend the lifespan of these resources and reduce the pressure on ecosystems.</p>
+                        <img src = "media/nr.jpg" alt = " image">
+                    </div>  
+            </div>
+        </div>
+    </section>
+    <!-- End of Body -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo and social icons -->
+            <div>
+                <img src="media/logo.png" style="height: 100; width: 100">
+                <ul class="social-icons">
+                    <li class="flex">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Privacy links -->
+            <div>
+                <h2>Privacy</h2>
+                <a href="about_us.html">About Us</a><br>
+                <a href="contact_us.html">Contact Us</a><br>
+                <a href="PG/developers.html">Developers</a>
+            </div>
+
+            <!-- Contact information -->
+            <div>
+                <h2>Have A Question</h2>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        Agujo, Daanbantayan, Cebu
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +63929-787-6170
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        example@domain.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer>
+        <p>&copy; 2023 Recycling Awareness. All rights reserved.</p>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>

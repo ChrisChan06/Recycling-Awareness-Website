@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color:beige;
+    align-content: center;
+    min-height: 100vh;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+.image{
+    background: url("https://github.com/prabinmagar/contact-page-html-css/blob/master/person.jpg?raw=true") center/cover no-repeat;
+}
+.content{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 0.5px solid #777;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: #777;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #06d6a0;
+}
+.links li:hover a{
+    color :#06d6a0;
+}
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #06d6a0;
+}
+
+
+/*******/
+
+@media(max-width: 992px){
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 100vh;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}
+   </style>     
+           
+        
+    </head>
+    <body>
+        <section>
+            <div class = "image">
+                <!-- image here -->
+            </div>
+
+            <div class = "content">
+                <h2>About Us</h2>
+                <span><!-- line here --></span>
+
+                <p>At Recycling Advocates, we believe in the power of recycling to transform waste into valuable resources. Our mission is to educate and inspire individuals on the importance of recycling practices for a greener and more sustainable future. Through our website, we strive to offer accessible and informative content, empowering users to make environmentally conscious choices. By fostering awareness and understanding, we aspire to build a community dedicated to sustainable living. Join us in contributing to a cleaner planet and embracing a lifestyle that makes a positive impact on our environment.</p>
+
+                <ul class = "links">
+                    <li><a href = "https://www.epa.gov/recycle">General Information</a></li>
+
+                    <div class = "vertical-line"></div>
+
+                    <li><a href = "https://ecofreek.com/recyclable/recycling-bloggers/">Blogs</a></li>
+
+                    <div class = "vertical-line"></div>
+                    
+                    <li><a href = "contact_us.html">contact</a></li>
+                </ul>
+
+                <ul class = "icons">
+                    <li>
+                        <a href="https://twitter.com" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://web.facebook.com" target="_blank"><i 
+                            class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.ph" target="_blank"><i
+                            class="fab fa-pinterest"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </body>
+</html>
